@@ -42,7 +42,7 @@ window.Config = {
 
   // [v2.1] 自定义 CSS (可选)
   // 例如: #footer { display: none; }
-  CustomCSS: '',
+  CustomCSS: '#footer { display: none; }',
 
   // [v2.1] 自定义 JS (可选)
   CustomJS: '',
