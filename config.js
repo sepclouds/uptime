@@ -1,7 +1,7 @@
 window.Config = {
 
   // [v2.0] 显示标题
-  SiteName: 'UpTime',
+  SiteName: 'Public Status',
 
   // [v2.0] UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
@@ -14,21 +14,17 @@ window.Config = {
   CountDays: 60,
 
   // [v2.0] 是否显示检测站点的链接
-  ShowLink: true,
+  ShowLink: false,
 
   // [v2.0] 导航栏菜单
   Navi: [
     {
-      text: '主页',
-      url: 'https://uptime.zrfme.com/'
-    },
-    {
       text: 'GitHub',
-      url: 'https://github.com/shaoyouvip/uptime/'
+      url: 'https://github.com/sepclouds/uptime'
     },
     {
-      text: '博客',
-      url: 'https://blog.zrf.me/'
+      text: 'blog',
+      url: 'https://sep.cc'
     },
   ],
 
