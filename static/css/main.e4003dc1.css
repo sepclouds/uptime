@@ -25,7 +25,7 @@ body:after{-webkit-mask-image:linear-gradient(180deg,transparent 0 178px,#000 17
 /* 2026-05-24 UI recovery: calmer desktop surface and cleaner loading state */
 html{background:#eef5f7}
 body{background:linear-gradient(180deg,#0d1624 0,#111b2a 206px,#eef5f7 206px,#f8fbfc 100%);min-height:100vh}
-body:before{background:linear-gradient(180deg,rgba(7,14,27,.98) 0,rgba(12,21,34,.94) 62%,rgba(13,22,36,.08) 100%),linear-gradient(115deg,transparent 0 55%,rgba(49,216,117,.12) 55.15%,rgba(56,189,248,.08) 66%,transparent 66.15%),repeating-linear-gradient(100deg,rgba(255,255,255,.055) 0 1px,transparent 1px 28px);clip-path:none;height:226px;opacity:1;position:fixed}
+body:before{background:black;clip-path:none;height:226px;opacity:1;position:fixed}
 body:after{background:black}
 #header{background:transparent;color:#e8f4ff;padding:34px 0 78px}
 #header:before{background:linear-gradient(90deg,rgba(255,255,255,.16),rgba(255,255,255,0));height:1px;left:max(20px,calc(50% - 490px));top:78px;width:min(36vw,320px)}
