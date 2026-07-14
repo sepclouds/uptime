@@ -35,7 +35,7 @@ body:after{background:black}
 #header .navi a:hover{border-color:rgba(49,216,117,.9);color:#a8f4c5}
 #uptime{background:rgba(255,255,255,.96);border:1px solid rgba(226,232,240,.92);border-radius:10px;box-shadow:0 24px 68px rgba(15,23,42,.14),0 1px 0 rgba(255,255,255,.82) inset;margin-top:-46px;overflow:hidden}
 #uptime:before{background:linear-gradient(90deg,#31d875 0,#22c55e 34%,#38bdf8 70%,rgba(148,163,184,.5) 100%);border-radius:10px 10px 0 0;height:3px;left:0;right:0;top:0}
-#uptime .overview{background:linear-gradient(180deg,#fff,#f8fbfd);padding:18px 34px}
+#uptime .overview{background:linear-gradient(180deg,#fff,#f8fbfd);padding:18px 34px;display:none}
 #uptime .overview.overview-loading{min-height:88px;padding:20px 34px}
 #uptime .overview.overview-loading .overview-item{min-height:44px;padding:1px 24px}
 #uptime .site.site-loading{background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(249,251,253,.96));margin:0 34px;padding:28px 0 30px}
