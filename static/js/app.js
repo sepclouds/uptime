@@ -126,7 +126,7 @@
     var second = append(footer, el('p'));
     second.append(' ');
     append(second, link('', ''));
-    second.append(' · CDN ');
+    second.append('');
     append(second, link('', ''));
     second.append(' ·  ');
     append(second, link('', ''));
