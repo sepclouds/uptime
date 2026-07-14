@@ -124,12 +124,12 @@
     append(first, link('https://uptimerobot.com/', 'UptimeRobot'));
     first.append(' 接口制作，检测频率 5 分钟');
     var second = append(footer, el('p'));
-    second.append('By ');
-    append(second, link('https://zrf.me/', 'ZRF.ME'));
+    second.append(' ');
+    append(second, link('', ''));
     second.append(' · CDN ');
-    append(second, link('https://www.cloudflare.com/', 'Cloudflare'));
-    second.append(' · 致谢 ');
-    append(second, link('https://github.com/yb', 'yb'));
+    append(second, link('', ''));
+    second.append(' ·  ');
+    append(second, link('', ''));
 
     return uptime;
   }
