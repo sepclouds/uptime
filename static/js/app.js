@@ -121,14 +121,14 @@
     var footer = container.querySelector('#footer');
     var first = append(footer, el('p'));
     first.append('基于 ');
-    append(first, link('https://uptimerobot.com/', 'UptimeRobot'));
+    append(first, link('https://uptimerobot.com', 'UptimeRobot'));
     first.append(' 接口制作，检测频率 5 分钟');
     var second = append(footer, el('p'));
-    second.append(' ');
+    second.append('');
     append(second, link('', ''));
     second.append('');
     append(second, link('', ''));
-    second.append(' ·  ');
+    second.append('');
     append(second, link('', ''));
 
     return uptime;
